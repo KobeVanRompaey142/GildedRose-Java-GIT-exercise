@@ -1,8 +1,12 @@
-package com.gildedrose;
+
+
+package com.gildedrose.items;
+
+import com.gildedrose.core.Item;
 
 public class SwitchItem extends Item{
-    public SwitchItem(String naam, int sellIn, int quality) {
-        super(naam, sellIn, quality);
+    public SwitchItem(String name, int sellIn, int quality) {
+        super(name, sellIn, quality);
     }
 
     @Override
